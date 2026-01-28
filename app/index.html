@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Car Racing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🏎️ Car Racing Game</h1>
+
+<div id="scoreBoard">
+    Time: <span id="time">0</span>s |
+    Speed: <span id="speed">0</span> km/h
+</div>
+
+<div id="controls">
+    <button onclick="pauseGame()">Pause</button>
+    <button onclick="resumeGame()">Resume</button>
+    <button onclick="restartGame()">Restart</button>
+    <button onclick="exitGame()">Exit</button>
+</div>
+
+<canvas id="gameCanvas"></canvas>
+
+<script src="scripts.js"></script>
+</body>
+</html>
+
